@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      background-color: lightblue; /* default for small screens */
+    }
+
+    /* Jab screen 768px se badi ho */
+    @media (min-width: 768px) {
+      body {
+        background-color: lightgreen;
+      }
+    }
+
+    /* Jab screen 1024px se badi ho */
+    @media (min-width: 1024px) {
+      body {
+        background-color: lightcoral;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Resize the window</h1>
+  <p>Screen chhoti ho to blue, medium ho to green, badi ho to red background.</p>
+
+  <h1 class="text-[40px] md:text-[80px]">
+  Hello
+  </h1>
+
+</body>
+</html>

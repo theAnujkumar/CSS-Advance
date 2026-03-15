@@ -1,0 +1,41 @@
+.container{
+    height: 500px;
+    width: 500px;
+    background-color: yellow;
+    border: 1px solid red;
+
+    display: grid;
+    grid-template-rows: 30px 1fr 30px;
+    grid-template-columns: 30% 1fr;
+
+    grid-template-areas: 
+    "hd hd"
+    "side main"
+    "ft ft";
+
+}
+
+.box{
+    background-color: aqua;
+    border: 2px solid orange;
+}
+
+#box1{
+    grid-area: hd;
+}
+#box2{
+    grid-area: side;
+}
+#box3{
+    grid-area: main;
+}
+#box4{
+    grid-area: ft;
+}
+
+
+table,tr,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}

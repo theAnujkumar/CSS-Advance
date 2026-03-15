@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Button{
+    border: none;
+    background-color: lightsalmon;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin: 30px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+
+    animation-name: bava;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+}
+
+.Button:hover{
+    cursor: grab;
+
+}
+
+@keyframes bava{
+    from{
+    background-color: orange;
+    }
+
+    to{
+        background-color: orange;
+    }
+}
